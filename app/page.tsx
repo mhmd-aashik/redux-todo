@@ -1,7 +1,7 @@
-import TodoForm from '@/components/TodoForm';
-import TodoList from '@/components/TodoList';
-import Filters from '@/components/Filters';
-import Stats from '@/components/Stats';
+import TodoForm from "@/components/TodoForm";
+import TodoList from "@/components/TodoList";
+import Filters from "@/components/Filters";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -10,11 +10,11 @@ export default function Home() {
         {/* Header */}
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
-            Redux Todo Application
+            NextJS 16 + Redux Toolkit Todo Application
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
-            Manage your tasks with an e-commerce-style interface. Built with Next.js, Redux
-            Toolkit, and Tailwind CSS.
+            Manage your tasks with an e-commerce-style interface. Built with
+            Next.js, Redux Toolkit, and Tailwind CSS.
           </p>
         </header>
 
@@ -33,7 +33,9 @@ export default function Home() {
 
         {/* Todo List */}
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Your Todos</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            Your Todos
+          </h2>
           <TodoList />
         </div>
       </div>
